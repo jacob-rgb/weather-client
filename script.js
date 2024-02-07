@@ -104,8 +104,8 @@ const getWeatherData = async (city) => {
   // Llamar a la api y obtener un objeto con los datos
   const res = await fetch(`https://community-open-weather-map.p.rapidapi.com/find?q=${city}&units=metric&lang=sp`, {
     "headers": {
-      "x-rapidapi-key": "7090138c33msh36688bdd0a384bap197688jsn9b009d739916",
-      "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com"
+      "X-RapidAPI-Key": "3f0d178c97msh8016846e7aa7a5fp1ba5dbjsn93867b63ac1a",
+      "X-RapidAPI-Host": "community-open-weather-map.p.rapidapi.com"
     }
   });
 
